@@ -10,7 +10,6 @@ export function Navbar() {
     //https://www.youtube.com/watch?v=Y6DwspK_wnM
     <nav class="navbar">
       <div class="nav-wrapper">
-        
         <ul id="nav-mobile" class="hide-on-med-and-down">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre">Quem somos</a></li>
