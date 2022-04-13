@@ -1,0 +1,31 @@
+.barra__inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 10%;
+}
+
+.barra__inicial--text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 167x;
+    letter-spacing: 1px;
+    width: 70%;
+    height: 100%;
+}
+
+.waves-effect{
+    background-color: rgb(3, 123, 85);
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border-radius: 3px;
+    border: none;
+}
+
+.waves-effect:hover{
+    background-color: rgb(3, 147, 101);
+}

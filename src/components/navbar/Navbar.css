@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+    background-color:rgb(68, 207, 75);
+    height: 10%;
+}
+
+
+nav ul {
+    margin: 0;
+}
+
