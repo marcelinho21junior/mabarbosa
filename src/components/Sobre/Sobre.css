@@ -1,0 +1,19 @@
+.Sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    height: 80%;
+}
+
+.SobreH1H3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SobreConteudo{
+    background-color: aquamarine;
+}
