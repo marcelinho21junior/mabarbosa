@@ -3,8 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
-    height: 80%;
 }
 
 .SobreH1H3{
@@ -14,6 +12,23 @@
     flex-direction: column;
 }
 
+.SobreH1H3 h3{
+    font-size: 25px;
+}
+
 .SobreConteudo{
-    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(245, 248, 247);
+}
+
+.SobreConteudoTxt{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2rem;
 }

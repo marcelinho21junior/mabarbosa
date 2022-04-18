@@ -1,0 +1,28 @@
+.Contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+}
+
+.ContatoAllInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    background-color: burlywood;
+}
+
+.ContatoInputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: aqua;
+}

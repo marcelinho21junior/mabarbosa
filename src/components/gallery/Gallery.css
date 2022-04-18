@@ -1,0 +1,29 @@
+.Gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.GalleryCampPhotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 40%;
+    width: 70%;
+}
+
+.GalleryPhotos{
+    border-radius: 5px;
+    margin: 4px;
+    height: 90%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.GalleryPhotos:hover{
+    box-shadow: 4px 1px 1px 1px rgba(3,1,1,0.7);
+}
