@@ -1,6 +1,8 @@
 //css
 import './contato.css'
 
+//icons
+import { FiUserCheck } from "react-icons/fi";
 
 export function Contato() {
 
@@ -11,24 +13,29 @@ export function Contato() {
 
         <div className='ContatoAllInputs'>
           <div className='ContatoInputs'>
-              <div className=''>
+              <div className='ContatoInputsIcons'>
+                <FiUserCheck className='oi'/> 
+                <input type="text" className='inputContato' placeholder='Digite seu none'/>        
+              </div>
+              <div className='ContatoInputsIcons'>
+                <FiUserCheck className='oi'/>
+                <input type="text" className='' placeholder=''/>
+              </div>
+          </div>
+          <div className='ContatoInputs'>
+              <div className='ContatoInputsIcons'>
+                <FiUserCheck className='oi'/> 
                 <input type="text" className='' placeholder=''/>        
               </div>
-              <div className=''>
+              <div className='ContatoInputsIcons'>
+                <FiUserCheck className='oi'/>
                 <input type="text" className='' placeholder=''/>
               </div>
           </div>
-          <div className='ContatoInputs'>
-              <div className=''>
+          <div className='ContatoInputsIcons'>
+                <FiUserCheck className='oi'/>
                 <input type="text" className='' placeholder=''/>
               </div>
-              <div className=''>
-                <input type="text" className='' placeholder=''/>
-              </div>
-          </div>
-          <div className='ContatoInputs'>
-            <input type="text" className='' placeholder=''/>
-          </div>
         </div>
     </div>
   )

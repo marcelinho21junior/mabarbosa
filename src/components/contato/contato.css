@@ -26,3 +26,26 @@
     height: 30%;
     background-color: aqua;
 }
+
+.ContatoInputsIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.inputContato{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 60%;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.inputContato::-webkit-input-placeholder{
+    color: black;
+}
