@@ -14,28 +14,28 @@ export function Contato() {
         <div className='ContatoAllInputs'>
           <div className='ContatoInputs'>
               <div className='ContatoInputsIcons'>
-                <FiUserCheck className='oi'/> 
+                <FiUserCheck className='iconsContato'/> 
                 <input type="text" className='inputContato' placeholder='Digite seu none'/>        
               </div>
               <div className='ContatoInputsIcons'>
-                <FiUserCheck className='oi'/>
-                <input type="text" className='' placeholder=''/>
+                <FiUserCheck className='iconsContato'/>
+                <input type="text" className='inputContato' placeholder=''/>
               </div>
           </div>
           <div className='ContatoInputs'>
               <div className='ContatoInputsIcons'>
-                <FiUserCheck className='oi'/> 
-                <input type="text" className='' placeholder=''/>        
+                <FiUserCheck className='iconsContato'/> 
+                <input type="text" className='inputContato' placeholder='Digite seu none'/>        
               </div>
               <div className='ContatoInputsIcons'>
-                <FiUserCheck className='oi'/>
-                <input type="text" className='' placeholder=''/>
+                <FiUserCheck className='iconsContato'/>
+                <input type="text" className='inputContato' placeholder=''/>
               </div>
           </div>
-          <div className='ContatoInputsIcons'>
-                <FiUserCheck className='oi'/>
-                <input type="text" className='' placeholder=''/>
-              </div>
+          <div className='ContatoInputsIcons ContatoInputsIconsMsg'>
+            <FiUserCheck className='iconsContato'/>
+            <input type="text" className='inputContato Contatomsg' placeholder='Digite seu none'/>
+          </div>
         </div>
     </div>
   )
